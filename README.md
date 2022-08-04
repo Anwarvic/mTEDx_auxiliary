@@ -36,9 +36,9 @@ python process_mtedx.py \
 For example:
 ```
 python process_mtedx.py \
-  --in /scratch/1/user/manwar/data/mTEDx_downloaded \
-  --out /scratch/1/user/manwar/data/mTEDx \
-  --langs ar fr \
+  --in /scratch/1/user/manwar/data/mTEDx \
+  --out /scratch/1/user/manwar/data/mTEDx_wav \
+  --langs ar el es de fr it pt ru\
   --groups test valid train
 ```
 
