@@ -124,8 +124,6 @@ def process_audio_text_sample(i, audio, text, data_folder, save_folder,
         audio_segment_filename: {
             "wav": {
                 "file": "{data_root}/" + f"{lang}/{group}/{audio_segment_filename}.wav",
-                "start": audio["offset"],
-                "end": audio["offset"]+audio["duration"],
             },
             "words": text.strip(),
             "duration": audio["duration"],
